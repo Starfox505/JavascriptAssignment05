@@ -19,11 +19,11 @@ console.log(results);
 // Example output:
 // console.log(sum(range(1, 10))); // returns 55
 
-const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const array1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let sum = 0;
 
-for (let i = 0; i < array.length; i++) {
-  sum += array[i];
+for (let i = 0; i < array1.length; i++) {
+  sum += array1[i];
 }
 console.log(sum);
 
@@ -41,7 +41,7 @@ console.log(sum);
 // reverseArrayInPlace(arrayValue);
 // console.log(arrayValue); // outputs [5, 4, 3, 2, 1]
 
-const array = [1, 2, 3, 4, 5];
+let array = [1, 2, 3, 4, 5];
 
 function reverseArray(arr) {
   let outputArray = [];
